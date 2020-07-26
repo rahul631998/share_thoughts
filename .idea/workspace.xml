@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f2b1c9dc-2bbc-4c3e-a464-fe352d33f89e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/shareThought/blog/templates/blog/about.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shareThought/blog/templates/blog/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shareThought/blog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/shareThought/blog/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shareThought/blog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/shareThought/blog/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shareThought/shareThought/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/shareThought/shareThought/urls.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,16 +16,35 @@
     <leaf>
       <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/shareThought/blog/urls.py">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+              <folding>
+                <element signature="e#0#32#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/shareThought/blog/views.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="114">
               <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/shareThought/shareThought/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="301">
+              <caret line="22" column="35" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
+              <folding>
+                <element signature="e#636#677#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -105,13 +122,14 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/shareThought/blog/urls.py" />
         <option value="$PROJECT_DIR$/shareThought/blog/models.py" />
         <option value="$PROJECT_DIR$/shareThought/blog/forms.py" />
         <option value="$PROJECT_DIR$/shareThought/shareThought/settings.py" />
         <option value="$PROJECT_DIR$/shareThought/blog/templates/blog/base.html" />
         <option value="$PROJECT_DIR$/shareThought/blog/templates/blog/about.html" />
         <option value="$PROJECT_DIR$/shareThought/blog/views.py" />
+        <option value="$PROJECT_DIR$/shareThought/blog/urls.py" />
+        <option value="$PROJECT_DIR$/shareThought/shareThought/urls.py" />
       </list>
     </option>
   </component>
@@ -287,15 +305,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shareThought/blog/urls.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/shareThought/blog/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shareThought/blog/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shareThought/shareThought/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="22" column="35" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
+          <folding>
+            <element signature="e#636#677#0" expanded="true" />
           </folding>
         </state>
       </provider>
