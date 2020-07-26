@@ -5,7 +5,7 @@ from django.utils import timezone
 from django.contrib.auth.decorators import login_required
 from django.contrib.auth.mixins import LoginRequiredMixin
 
-from django.views.generic import (TemplateView, ListView, DetailView, CreateView)
+from django.views.generic import (TemplateView, ListView, DetailView, CreateView, UpdateView)
 
 class AboutView(TemplateView):
     template_name = 'about.html'
@@ -23,6 +23,15 @@ class PostDetailView(DetailView):
 
 
 class CreatePostView(LoginRequiredMixin, CreateView):
+    login_url = '/login/'
+    redirect_field_name = 'blog/post_detail.html'
+
+    form_class = PostForm
+
+    model = Post
+
+
+class PostUpdateView(LoginRequiredMixin,UpdateView):
     login_url = '/login/'
     redirect_field_name = 'blog/post_detail.html'
 
