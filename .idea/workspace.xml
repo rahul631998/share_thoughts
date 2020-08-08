@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f2b1c9dc-2bbc-4c3e-a464-fe352d33f89e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/shareThought/blog/templates/blog/post_form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shareThought/blog/templates/blog/post_draft_list.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,18 +13,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shareThought/blog/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="15" column="81" selection-start-line="15" selection-start-column="81" selection-end-line="15" selection-end-column="81" />
-              <folding>
-                <element signature="e#0#32#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/shareThought/blog/views.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -103,11 +91,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="post_form.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="post_form.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/shareThought/blog/templates/blog/post_form.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="266">
               <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="post_draft_list.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/shareThought/blog/templates/blog/post_draft_list.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
         </entry>
@@ -141,6 +138,7 @@
         <option value="$PROJECT_DIR$/shareThought/blog/templates/blog/post_detail.html" />
         <option value="$PROJECT_DIR$/shareThought/blog/templates/blog/about.html" />
         <option value="$PROJECT_DIR$/shareThought/blog/templates/blog/post_form.html" />
+        <option value="$PROJECT_DIR$/shareThought/blog/templates/blog/post_draft_list.html" />
       </list>
     </option>
   </component>
@@ -458,6 +456,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
           <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shareThought/blog/templates/blog/post_draft_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
