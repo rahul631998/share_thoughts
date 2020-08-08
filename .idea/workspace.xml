@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f2b1c9dc-2bbc-4c3e-a464-fe352d33f89e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/shareThought/blog/templates/blog/post_confirm_delete" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shareThought/blog/templates/blog/comment_form.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -21,15 +21,6 @@
               <folding>
                 <element signature="e#636#677#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shareThought/blog/templates/registration/login.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="21" selection-start-line="21" selection-end-line="21" />
             </state>
           </provider>
         </entry>
@@ -97,11 +88,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="post_confirm_delete" pinned="false" current-in-tab="true">
+      <file leaf-file-name="post_confirm_delete" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/shareThought/blog/templates/blog/post_confirm_delete">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="133">
               <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="comment_form.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/shareThought/blog/templates/blog/comment_form.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
             </state>
           </provider>
         </entry>
@@ -137,6 +137,7 @@
         <option value="$PROJECT_DIR$/shareThought/blog/templates/blog/post_form.html" />
         <option value="$PROJECT_DIR$/shareThought/blog/templates/blog/post_draft_list.html" />
         <option value="$PROJECT_DIR$/shareThought/blog/templates/blog/post_confirm_delete" />
+        <option value="$PROJECT_DIR$/shareThought/blog/templates/blog/comment_form.html" />
       </list>
     </option>
   </component>
@@ -468,6 +469,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
           <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shareThought/blog/templates/blog/comment_form.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>
